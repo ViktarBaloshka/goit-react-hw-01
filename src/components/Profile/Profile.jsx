@@ -15,7 +15,7 @@ export default function Profile({
         <div className={clsx(css.dataUser)}>
             <img className={clsx(css.img)} src={image} alt={name} />
             <p className={ clsx(css.name)}>{name}</p>
-            <p className={ clsx(css.text)}>@{tag}</p>
+            <p className={ clsx(css.text)}><MdAlternateEmail />{tag}</p>
             <p className={ clsx(css.text)}>{location}</p>
         </div>
 

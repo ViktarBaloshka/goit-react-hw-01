@@ -1,5 +1,5 @@
 .container {
-  max-width: 500px;
+  max-width: 600px;
   border: 3px solid #2a2a2a;
   border-radius: 10px;
   margin: 50px auto 100px;
@@ -49,10 +49,10 @@
   }
 }
 .textStats {
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 32px;
+  /* font-weight: 500; */
 }
 .textStatsValue {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
 }
