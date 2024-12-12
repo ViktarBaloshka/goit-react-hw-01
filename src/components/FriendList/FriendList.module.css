@@ -1,0 +1,12 @@
+.listCardUsers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.listCardItems {
+    width: calc((100% - 40px) / 5);
+    max-width: 70px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 15px 15px;
+}

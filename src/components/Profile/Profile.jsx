@@ -10,13 +10,13 @@ export default function Profile({
     {
     
     return (
-        <div className={ clsx(css.container)}>
+        <div className={clsx(css.container)}>
 
         <div className={clsx(css.dataUser)}>
             <img className={clsx(css.img)} src={image} alt={name} />
-            <p className={ clsx(css.name)}>{name}</p>
-            <p className={ clsx(css.text)}><MdAlternateEmail />{tag}</p>
-            <p className={ clsx(css.text)}>{location}</p>
+            <p className={clsx(css.name)}>{name}</p>
+            <p className={clsx(css.text)}><MdAlternateEmail />{tag}</p>
+            <p className={clsx(css.text)}>{location}</p>
         </div>
 
         <ul className={clsx(css.listStatsUser)}>
