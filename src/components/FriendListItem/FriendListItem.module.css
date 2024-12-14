@@ -11,9 +11,9 @@
 .friendListItemsAvatar {
    display: block;
 }
-.isOnline{
+.isOnlineGreen{
     color:green;
 }
-.isOffline{
+.isOfflineRed{
     color:red;
 }

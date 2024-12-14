@@ -1,0 +1,28 @@
+.tableContainer {
+    width: 600px;
+    margin: 50px auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.headTable {
+    background-color: #3b3b3b;
+    text-align: center;
+    color: white;
+}
+
+.tableBody {
+    text-align: center;
+    td::first-letter {
+        text-transform: uppercase;
+    }
+}
+
+td,th {
+    border: 1px solid black;
+}
+.textTableBody:nth-child(2n) {
+    border: 1px solid black;
+    background-color: #888888;
+}
+
